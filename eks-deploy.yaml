@@ -14,10 +14,10 @@ spec:
     spec:
       containers:
       - name: my-springboot-app
-        image: 211223789150.dkr.ecr.us-east-1.amazonaws.com/my-docker-repo
+        image: 905418159172.dkr.ecr.us-east-1.amazonaws.com/myawesome-repo
         imagePullPolicy: Always
         ports:
-        - containerPort: 8085
+        - containerPort: 8080
 # service type loadbalancer       
 ---
 apiVersion: v1
